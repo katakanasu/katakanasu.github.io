@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Streaming Anime</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="../img/logo.png" alt="Logo" class="logo">
+  </div>
+  <div class="header-right">
+    <input type="text" id="searchInput" placeholder="Cari film...">
+  </div>
+</header>
+
+<div class="video-player">
+  <video id="myVideo" controls>
+    <source src="../anime/tenkinoko.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-info">
+    <h1 class="video-title">Weathering with You</h1>
+    <p class="video-description">seorang anak muda dari desa terpencil di Shikoku, yang meninggalkan rumah dan memutuskan untuk tinggal di Tokyo. Dalam perjalanannya, dia bertemu dengan Keisuke, seorang pria aneh yang menawarkan bantuan kepadanya. Merasa aneh dengan orang tersebut, Hodoka memutuskan untuk mencoba mencari peruntungan yang lain. Namun dia menghadapi kesulitan yang datang silih berganti dalam perjalannya. Setelah beberapa kali tidur di jalanan karena tidak ada orang lain yang bias dihubungi, Hodoka memutuskan untuk menghubungi Keisuke. Hodoka mendapatkan tawaran bekerja sebagai penulis majalah lokal milik Keisuke yang membahas supernatural dan hal hal aneh. Selama di Tokyo, Hodoka selalu diikuti cuaca aneh dimana hujan turun tiada henti. Saat menulis sebuah cerita, dia mendengar kisah pengendalian cuaca. Dia berusaha mencari kebenaran dari legenda urban di mana ada seorang gadis muda yang memiliki kekuatan untuk menghentikan hujan dan membuat langit menjadi cerah kembali. Pencariannya ini membuatnya bertemu dengan Hina Amano, seorang gadis yang memiliki kekuatan luar biasa yang dapat mengendalikan cuaca.</p>
+  </div>
+  <div class="video-controls">
+    <button onclick="goBack()">Kembali</button>
+    <a href="video.mp4" download="video.mp4"><button>Download Video</button></a>
+  </div>
+</div>
+
+
+<script src="../scripts.js"></script>
+</body>
+</html>

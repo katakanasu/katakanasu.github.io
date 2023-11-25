@@ -1,0 +1,100 @@
+/* Reset default margin and padding */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Background image */
+  body {
+    background-image: url('https://berita.yodu.id/wp-content/uploads/2023/04/Komet-Tiamat-.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Bayangan yang lebih tegas */
+    background-color: rgba(0, 0, 0, 0.7); /* Latar belakang transparan hitam */
+    color: #fff; /* Warna teks putih */
+  }
+  
+  /* Title box styling */
+  .judul-box {
+    background-color: transparent; /* Hapus latar belakang kotak judul */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Title styling */
+  .judul {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow pada teks judul */
+  }
+  
+  /* Content section styling */
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  /* Poster styling */
+  .poster img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Bayangan yang lebih tegas */
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Efek transisi saat hover */
+  }
+  
+  .poster img:hover {
+    transform: scale(1.05); /* Perbesar poster saat hover */
+  }
+  
+  /* Information styling */
+  .informasi ul {
+    list-style: none;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .informasi ul li {
+    margin-bottom: 8px;
+  }
+  
+  .informasi ul li strong {
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 24px;
+    background-color: #0977e5; /* Warna merah Netflix */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #0015f6; /* Warna hover yang lebih gelap */
+  }
+
+@media (max-width: 576px) {}
+
+@media (min-width: 577px) and (max-width: 991px) {}
+
+@media (min-width: 992px) {}

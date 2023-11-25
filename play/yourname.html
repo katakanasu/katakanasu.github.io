@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Streaming Anime</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="../img/logo.png" alt="Logo" class="logo">
+  </div>
+  <div class="header-right">
+    <input type="text" id="searchInput" placeholder="Cari film...">
+  </div>
+</header>
+
+<div class="video-player">
+  <video id="myVideo" controls>
+    <source src="../anime/yourname.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-info">
+    <h1 class="video-title">Your name</h1>
+    <p class="video-description">mengisahkan kisah romantis antara Mitsuha Miyamizu dan Taki Tachibana yang mengalami fenomena aneh pada diri masing-masing. Awalnya karena dipicu oleh bencana alam meteor yang terjadi di desa Mitsuha Miyamizu.</p>
+  </div>
+  <div class="video-controls">
+    <button onclick="goBack()">Kembali</button>
+    <a href="video.mp4" download="video.mp4"><button>Download Video</button></a>
+  </div>
+</div>
+
+
+<script src="../scripts.js"></script>
+</body>
+</html>

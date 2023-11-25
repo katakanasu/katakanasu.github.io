@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Video Player</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="../img/logo.png" alt="Logo" class="logo">
+  </div>
+  <div class="header-right">
+    <input type="text" id="searchInput" placeholder="Cari film...">
+  </div>
+</header>
+
+<div class="video-player">
+  <video id="myVideo" controls>
+    <source src="../anime/Natsu e no Tunnel, Sayonara no Deguchi.720.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-info">
+    <h1 class="video-title">Natsu e no Tunnel, Sayonara no Deguchi</h1>
+    <p class="video-description">Sebuah terowongan misterius dapat mengabulkan permintaanmu…tapi dengan konsekuensi. Seorang anak SMA bernama Kaoru, dihantui oleh masa lalu yang bermasalah, bersama dengan Anzu, perempuan yang bertarung dengan kewajibannya dan meninggalkan mimpinya, untuk menginvestigasi terowongan itu. Tapi harga yang harus dibayar dari keinginan mereka terlalu tinggi. Ini adalah cerita nostalgia tentang musim panas yang tak terlupakan, tentang cinta dan waktu.</p>
+  </div>
+  <div class="video-controls">
+    <button onclick="goBack()">Kembali</button>
+    <a href="video.mp4" download="video.mp4"><button>Download Video</button></a>
+  </div>
+</div>
+
+
+<script src="../scripts.js"></script>
+</body>
+</html>

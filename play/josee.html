@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Streaming Anime</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="../img/logo.png" alt="Logo" class="logo">
+  </div>
+  <div class="header-right">
+    <input type="text" id="searchInput" placeholder="Cari film...">
+  </div>
+</header>
+
+<div class="video-player">
+  <video id="myVideo" controls>
+    <source src="../anime/Josee to Tora to Sakana-tachi.720.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-info">
+    <h1 class="video-title">Josee to Tora to Sakana-tachi</h1>
+    <p class="video-description">Tsuneo, seorang mahasiswa biasa dan pegiat menyelam, secara tak terduga bekerja menjadi pengurus seorang gadis muda berkursi roda, demi mengumpulkan uang agar bisa pergi menyelam di Meksiko. Sang gadis, yang menamai dirinya sebagai Josee seperti seorang tokoh dalam buku favoritnya, bersifat pemarah dan banyak menuntut. Namun, seiring Tsuneo mendampingi Josee berinteraksi dengan dunia luar dan belajar memahami perspektif unik Josee, rasa yang ada di antara mereka bertumbuh jadi cinta. Keduanya pun mulai saling mendukung lewat cara-cara yang lebih dari sekadar romansa.</p>
+  </div>
+  <div class="video-controls">
+    <button onclick="goBack()">Kembali</button>
+    <a href="video.mp4" download="video.mp4"><button>Download Video</button></a>
+  </div>
+</div>
+
+
+<script src="../scripts.js"></script>
+</body>
+</html>

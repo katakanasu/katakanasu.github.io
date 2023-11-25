@@ -1,0 +1,116 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1b1b;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #343A40;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 180px;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  flex: 1;
+  text-align: right;
+}
+
+
+#searchInput {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.video-player {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #343A40;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#myVideo {
+  width: 100%;
+  height: auto;
+}
+
+.video-info {
+  padding: 20px;
+}
+
+.video-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.video-description {
+  color: #ffffff;
+}
+
+.video-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  header {
+    padding: 10px;
+  }
+
+  .video-player {
+    max-width: 90%;
+  }
+
+  .video-info {
+    padding: 10px;
+  }
+
+  .video-title {
+    font-size: 20px;
+  }
+}
