@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATAKANASU NIME</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" id="logo">
+        <h1>KATAKANASU</h1>
+        <button id="toggleTheme"><i class="fas fa-moon"></i></button>
+    </header>
+    <nav>
+        <input type="text" id="search" placeholder="Cari anime apa...">
+        <div class="genre-buttons">
+            <button data-genre="all" class="genre-button active">All Genres</button>
+            <button data-genre="action" class="genre-button">Action</button>
+            <button data-genre="comedy" class="genre-button">Comedy</button>
+            <button data-genre="drama" class="genre-button">Drama</button>
+            <button data-genre="romance" class="genre-button">Romance</button>
+            <button data-genre="school" class="genre-button">School</button>
+            <button data-genre="fantasy" class="genre-button">Fantasy</button>
+            <button data-genre="adventure" class="genre-button">Adventure</button>
+            <!-- Add more genres as needed -->
+        </div>
+    </nav>
+    <main id="animeContainer">
+        <!-- Anime items will be injected here by JavaScript -->
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>

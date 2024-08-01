@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Your Name",
+        "studio": "CoMix Wave Films",
+        "genre": "romance",
+        "rating": "8.9",
+        "poster": "POSTER/YOURNAME.jpg",
+        "link": "https://example.com/your-name"
+    },
+    {
+        "title": "Weathering with You",
+        "studio": "CoMix Wave Films",
+        "genre": "romance",
+        "rating": "8.5",
+        "poster": "POSTER/WEATHERING.jpg",
+        "link": "https://example.com/weathering-with-you"
+    },
+    {
+        "title": "Suzume",
+        "studio": "CoMix Wave Films",
+        "genre": "romance",
+        "rating": "8.4",
+        "poster": "POSTER/SUZUME.jpg",
+        "link": "https://example.com/suzume"
+    },
+    {
+        "title": "Tamako Love Story",
+        "studio": "Kyoto Animation",
+        "genre": "romance",
+        "rating": "8.2",
+        "poster": "POSTER/TAMAKO.jpg",
+        "link": "https://example.com/tamako-love-story"
+    },
+    {
+        "title": "A Silent Voice",
+        "studio": "Kyoto Animation",
+        "genre": "romance",
+        "rating": "8.7",
+        "poster": "POSTER/SILENT.jpg",
+        "link": "https://example.com/a-silent-voice"
+    },
+    {
+        "title": "Josee, the Tiger and the Fish",
+        "studio": "Bones",
+        "genre": "romance",
+        "rating": "8.0",
+        "poster": "POSTER/JOSEE.jpg",
+        "link": "https://example.com/josee-the-tiger-and-the-fish"
+    }
+]
